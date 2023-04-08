@@ -1,0 +1,61 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  background-color: antiquewhite;
+}
+
+img {
+  height: 190px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.03), 0 2px 2px rgba(0, 0, 0, 0.03);
+}
+
+hr {
+  width: 40%;
+}
+
+.select {
+  background-color: beige;
+  margin: auto;
+  height: 80%;
+  width: 20%;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.05), 0 6px 6px rgba(0, 0, 0, 0.05);
+}
+
+.select > div > img {
+  height: 130px;
+  cursor: pointer;
+}
+
+.select > div > img:hover {
+  transform: scale(1.1);
+}
+
+.game {
+  background-color: beige;
+  margin: auto;
+  width: 60%;
+  height: 80%;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.05), 0 6px 6px rgba(0, 0, 0, 0.05);
+}
+
+.score {
+  width: 200px;
+  text-align: center;
+  font-weight: bold;
+}
