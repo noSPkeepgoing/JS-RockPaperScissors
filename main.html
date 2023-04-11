@@ -6,16 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rock-Paper-Scissors</title>
     <link rel="stylesheet" href="./styles.css" />
+    <script type="module" src="./score.js"></script>
+    <script type="module" src="./user.js"></script>
+    <script type="module" src="./computer.js"></script>
   </head>
   <body>
     <section class="game">
-      <div class="computer"><img src="./img/paper.png" /></div>
+      <div class="computer">
+        <img class="computer_choose" src="./img/paper.png" />
+      </div>
       <div class="score">
         <div class="score_computer">0</div>
         <hr />
         <div class="score_user">0</div>
       </div>
-      <div class="user"><img src="./img/paper.png" /></div>
+      <div class="user"><img class="user_choose" src="./img/paper.png" /></div>
     </section>
     <section class="select">
       <div id="user_rock"><img src="./img/rock.png" /></div>
